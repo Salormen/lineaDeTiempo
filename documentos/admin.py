@@ -1,7 +1,7 @@
 from django.contrib import admin
-from linea.models import Hito, Etiqueta
-from linea.admins.hito import HitoAdmin
-from linea.admins.etiqueta import EtiquetaAdmin
+from documentos.models import Hito, Etiqueta
+from documentos.admins.hito import HitoAdmin
+from documentos.admins.etiqueta import EtiquetaAdmin
 
 # Register your models here.
 

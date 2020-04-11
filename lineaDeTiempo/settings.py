@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['190.106.131.198', 'desa01-fetemba.ticma.com.ar', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
-    'linea.apps.LineaConfig',
+    'documentos.apps.DocumentosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -128,3 +128,4 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:8000',
     '127.0.0.1:8000'
 )
+

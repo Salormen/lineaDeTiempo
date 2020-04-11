@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('linea', '0002_auto_20200410_1931'),
+        ('documentos', '0002_auto_20200410_1931'),
     ]
 
     operations = [
@@ -28,7 +28,7 @@ class Migration(migrations.Migration):
                 ('descripcion_corta', models.CharField(max_length=200)),
                 ('fecha', models.DateTimeField(default=datetime.datetime(2020, 1, 1, 0, 0))),
                 ('descripcion_larga', models.TextField(blank=True, default='')),
-                ('etiqueta', models.ForeignKey(null=True, on_delete=django.db.models.deletion.PROTECT, to='linea.Etiqueta')),
+                ('etiqueta', models.ForeignKey(null=True, on_delete=django.db.models.deletion.PROTECT, to='documentos.Etiqueta')),
             ],
         ),
     ]
